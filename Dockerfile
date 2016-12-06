@@ -9,4 +9,5 @@ RUN echo 'Hi, I am in your container' \
 CMD [ "nginx", "-g", "daemon off;" ]
 
 EXPOSE 80
-#comment for automated test build
+#comment for docker automated test build
+#comment for jenkins automated test build
